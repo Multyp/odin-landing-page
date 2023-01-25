@@ -21,6 +21,7 @@ body {
     border-radius: 50%;
     float: left;
     position: relative;
+    user-select: none;
 }
 
 .header ul {
@@ -73,11 +74,15 @@ body {
 #hero-signup {
     height: 30px;
     width: 100px;
+    line-height: 30px;
     font-weight: bold;
     color: white;
     background-color: #3882F6;
     border-color: transparent;
     border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
 
 .hero img {
@@ -87,6 +92,7 @@ body {
     right: 0;
     margin-right: 250px;
     position: absolute;
+    user-select: none;
 }
 
 .random {
@@ -118,6 +124,7 @@ body {
     margin-top: 10px;
     border: 3px solid #3882F6;
     border-radius: 20px;
+    user-select: none;
 }
 
 .random a {
@@ -186,6 +193,7 @@ body {
     color: #E5E7EB;
     background-color: #3882F6;
     height: 35px;
+    line-height: 35px;
     width: 150px;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
@@ -194,6 +202,9 @@ body {
     font-size: 18px;
     font-weight: bolder;
     position: absolute;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
 }
 
 .footer {
